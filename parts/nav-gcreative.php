@@ -13,7 +13,7 @@
 	<div class="top-bar-right float-right show-for-small-only">
 		<ul class="menu menu-hamburger">
 			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a href="http://localhost:8888/DEV/gcreative/" style="margin: 0; padding-top: 1.5rem; padding-left: 1.5rem; padding-bottom: 0;">
+			<li><a href="/" style="margin: 0; padding-top: 1.5rem; padding-left: 1.5rem; padding-bottom: 0;">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" width="50" alt="">
 			</a></li>
 			<!-- <li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li> -->
