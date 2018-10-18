@@ -7,9 +7,9 @@ jQuery(document).ready(function() {
       jQuery(".js-off-canvas-overlay").click(function(){
         jQuery('.hamburger').removeClass("is-active");
       });
-      jQuery(window).on('load resize',function(){
-        if(jQuery(window).width() > 414){
-            window.location = "http://gcreativelab.com/"
-        }
-    });
+    //   jQuery(window).on('load resize',function(){
+    //     if(jQuery(window).width() > 414){
+    //         window.location = "http://gcreativelab.com/"
+    //     }
+    // });
 }); 
