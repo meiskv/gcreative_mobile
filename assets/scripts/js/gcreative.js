@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
         jQuery('.hamburger').removeClass("is-active");
       });
       jQuery(window).on('load resize',function(){
-        if($(window).width() >= 414){
+        if(jQuery(window).width() > 414){
             window.location = "http://gcreativelab.com/"
         }
     });
