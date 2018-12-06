@@ -71,9 +71,9 @@ get_header(); ?>
             
             </div>
 				
-            <div class="instagram_feed">
+            <!-- <div class="instagram_feed">
                 <span><?php dynamic_sidebar('instagram'); ?></span>
-            </div>
+            </div> -->
             
             <div class="footer">
                 <span><?php dynamic_sidebar('footer'); ?></span>
