@@ -31,6 +31,8 @@ function joints_register_sidebars() {
 		// 'after_title' => '</h4>',
 	));
 
+	
+
 	/*
 	to add more sidebars or widgetized areas, just copy
 	and edit the above sidebar code. In order to call

@@ -372,3 +372,30 @@
         list-style: none;
     }
 }
+
+.social{
+    #sb_instagram #sbi_load{
+        padding-bottom: 30px;
+        padding-top: 20px !important;
+    }
+
+    #sb_instagram #sbi_load .sbi_load_btn{
+        background: #D41367;
+        color: #ffffff;
+        font: 0.8rem "Avenir","Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+        text-transform: uppercase;
+    }
+    #sb_instagram .sbi_follow_btn a{
+        background: #0F294B;
+        color: #ffffff;
+        font: 0.8rem "Avenir","Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+        text-transform: uppercase;
+    }
+    .sb_instagram_header, .sbi_header_link{
+        display: none;
+    }
+}
+
+.widget_text{
+    list-style: none;
+}
