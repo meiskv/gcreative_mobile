@@ -22,6 +22,11 @@ function joints_register_sidebars() {
 	));
 
 	register_sidebar(array(
+		'id' => 'contactform',
+		'name' => __('Contact Page Form', 'jointswp'),
+	));
+
+	register_sidebar(array(
 		'id' => 'instagram',
 		'name' => __('GCREATIVE Instagram', 'jointswp'),
 		// 'description' => __('The offcanvas sidebar.', 'jointswp'),

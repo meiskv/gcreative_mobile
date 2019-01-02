@@ -24,5 +24,15 @@ jQuery(document).ready(function() {
     .to(".header_animation", 0.6, {text:"INNOVATIVE",ease:Expo.easeInOut})
     .to(".header_animation", 0.6, {text:"BOLD",ease:Expo.easeInOut});
 
+    var contactText = new TimelineMax({repeat: -1, delay: 1});
     
+    contactText.to(".hello-translate", 1.5, {text:"مرحبا",ease:Expo.easeInOut,delay: 0.3})
+    .to(".hello-translate", 1.5, {text:"Bonjour",ease:Expo.easeInOut})
+    .to(".hello-translate", 1.5, {text:"여보세요",ease:Expo.easeInOut})
+    .to(".hello-translate", 1.5, {text:"Hola",ease:Expo.easeInOut})
+    .to(".hello-translate", 1.5, {text:"こんにちは",ease:Expo.easeInOut})
+    .to(".hello-translate", 1.5, {text:"你好",ease:Expo.easeInOut})
+    .to(".hello-translate", 1.5, {text:"Hello",ease:Expo.easeInOut});
+
+
 }); 

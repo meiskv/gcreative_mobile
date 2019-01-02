@@ -399,3 +399,44 @@
 .widget_text{
     list-style: none;
 }
+
+// CONTACT US
+
+.content__subheader{
+    font: 900 2rem/100% "Avenir","Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    font-weight: 700;
+    color: #d92360!important;
+    margin: .5rem 0;
+}
+
+.content__header{
+    font: 300 2rem/100% "Avenir","Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    color: #0f294b!important;
+    margin: .5rem 0;
+}
+
+.hello-translate{
+    font: 900 2rem/100% "Avenir","Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    color: #0f294b!important;
+    margin: .5rem 0;
+}
+
+.wpforms-field-container input{
+    width: 100%;
+    max-width: 100%!important;
+    border: 2px solid #f4f4f4!important;
+}
+
+.wpforms-field-container textarea{
+    border: 2px solid #f4f4f4!important;
+}
+
+.wpforms-submit {
+    border: 2px solid #f4f4f4!important;
+    background: #fff!important;
+    color: #0f294b;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: .8rem 3rem!important;
+}
