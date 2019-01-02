@@ -20,7 +20,11 @@ const FOUNDATION = 'node_modules/foundation-sites';
 const SOURCE = {
 	scripts: [
 		// Lets grab what-input first
-	    'node_modules/what-input/dist/what-input.js',
+		'node_modules/what-input/dist/what-input.js',
+		'node_modules/gsap/src/minified/TimelineMax.min.js',
+		'node_modules/gsap/src/minified/TweenMax.min.js',
+		'node_modules/gsap/src/uncompressed/plugins/TextPlugin.js',
+		'node_modules/gsap/src/uncompressed/bonus/SplitText.js',
 
 		// Foundation core - needed if you want to use any of the components below
 		FOUNDATION + '/dist/js/plugins/foundation.core.js',

@@ -60,7 +60,9 @@ get_header(); ?>
 				
             
             
-
+            <div class="footer">
+                <span><?php dynamic_sidebar('footer'); ?></span>
+            </div>
 
 
 			</main> <!-- end #main -->

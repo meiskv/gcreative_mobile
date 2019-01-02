@@ -12,4 +12,17 @@ jQuery(document).ready(function() {
     //         window.location = "http://gcreativelab.com/"
     //     }
     // });
+
+    var gpreload = new TimelineMax({repeat: -1, delay: 1});
+    
+    gpreload.to(".header_animation", 0.6, {text:"DIFFERENT",ease:Expo.easeInOut,delay: 0.3})
+    .to(".header_animation", 0.6, {text:"ENTHUSIASTIC",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"PASSIONATE",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"CONNECTED",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"VERSATILE",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"EXPRESSIVE",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"INNOVATIVE",ease:Expo.easeInOut})
+    .to(".header_animation", 0.6, {text:"BOLD",ease:Expo.easeInOut});
+
+    
 }); 

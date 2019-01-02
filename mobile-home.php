@@ -15,7 +15,7 @@ get_header(); ?>
 
                     <div class="intro">
                         <h1>We are</h1>
-                        <h2>Bold</h2>
+                        <h2 class="header_animation">Bold</h2>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         
                             <?php the_content(); ?>
