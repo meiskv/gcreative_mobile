@@ -26,28 +26,22 @@ get_header(); ?>
 
                     </div>
 
-                    <div class="about-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-map.svg" style="height:95%;" width="100%" alt="">
-                    </div>
-
-                    <div class="about-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-huntsworth.svg" style="height:100%;" width="100%" alt="">
+                    <div class="about-img" style="padding: 0 !important;">
+                            <?php get_template_part( 'parts/svg', 'exactmap' ); ?>
                     </div>
 
                     <div class="about-img">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-reputation-icon.svg" height="95" width="95" alt="">
                             <h1>We build</h1>
-                            <h4>Design Reputation</h4>
+                            <h4>BRANDS</h4>
                             <p>
-                                We are a part of Grayling Public Relations, a wholly owned subsidiary of Huntsworth PLC – a public relations focused group listed on the London Stock Exchange. This allows us to provide truly integrated strategic services, and worldwide reach with local expertise and knowledge, combined with unrivalled and diverse sector experience.
+                            We are a part of Grayling, a wholly owned subsidiary of Huntsworth PLC – a public relations focused group listed on the London Stock Exchange. We provide truly integrated strategic services combined with worldwide reach. We match this with local expertise and knowledge supported by diverse sector experience.	
                             </p>
                     </div>
 
                     <div class="about-img">
-                            <?php get_template_part( 'parts/svg', 'exactmap' ); ?>
-                    </div>
-                
-            
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-map.svg" style="height:95%;" width="100%" alt="">
+                    </div>            
             </div>
 				
             
